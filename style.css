@@ -1,0 +1,135 @@
+body{
+    background-color: rgb(125, 61, 107);
+    height: 100vh;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+header {
+    display: flex;
+    justify-content: end;
+    height: 60px;
+    padding: 0 12px;
+    background-color: white;
+    align-items: center;
+
+}
+header.Options {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    
+}
+.Options a:hover {
+    text-decoration: underline;
+}
+.Options a {
+    font-family: Arial, Helvetica, sans-serif;
+text-decoration: none;
+color: black;
+padding: 5px;
+}
+
+.imgusuario{
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+}
+.apps{
+    width: 18px;
+    height: 18px;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    height: 78vh;
+    gap: 15px;
+}
+.texto{
+    display:flex;
+    align-items: center;
+    height: 40px;
+    width: 450px;
+    background-color: white;
+    padding: 8px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 100px;
+    border-color: rgb(244, 239, 239);
+    padding: 15px 20px;
+
+
+}
+.texto input{
+    width: 100%;
+    border: none;
+    
+    
+}
+ .buttons button{
+    border: none;
+    border-radius: 4px;
+    padding: 10px 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 8px;
+    
+
+}
+
+img{
+    height: 100px;
+}
+.lupa {
+    order: -1;
+    padding: 5px;
+    margin: 0;
+    
+  }
+  .lupa img{
+    height: 25px;
+    width: 25px; 
+    justify-content: center;
+  }
+
+.camara img{
+    height: 32px;
+    width: 32px;
+    justify-content: center;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(239, 234, 234);
+    height: 90px;
+    
+    
+}
+footer section {
+    padding: 0 30px; 
+    display: flex;
+    align-items: center;
+    height: 50%;
+    color: rgb(2, 2, 2);
+}
+.info {
+    border-top: grey solid 1px;
+    display: flex;
+    justify-content: space-between;
+}
+footer section.info div{
+    display: flex;
+    gap: 12px;
+}
+
+footer section.info div a {
+    color: black;
+    text-decoration: none;
+}
+footer section.info div a:hover{
+    text-decoration: underline;
+}
